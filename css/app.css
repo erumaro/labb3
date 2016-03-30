@@ -1,1 +1,71 @@
 /* Style by Tobias Årud, some edits to basic foundation classes will be here aswell */
+body{
+    background: url('../img/wood-nature-sunny-forest.jpg') fixed;
+    background-size: cover;
+}
+
+header.full-width{
+    background-color: red;
+    color:white;
+}
+
+header > div.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.menu > .active > a{
+    background: black;
+}
+
+.button{
+    background: black;
+}
+
+.button.hollow{
+    border-color: white;
+    color: white;
+}
+
+#chart .row{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chart .row{
+
+}
+
+.list-order{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    padding: 50% 0;
+    border-radius: 50%;
+    background: #2199e8;
+    color: #fefefe;
+    text-align: center;
+    font-size: 2em;
+}
+
+ul.row{
+    list-style: none;
+}
+
+ul.row ul{
+    list-style: none;
+}
+
+i{
+    font-size: 3em;
+}
