@@ -44,6 +44,11 @@ main{
     background: black;
 }
 
+.button:hover{
+    background: #ffeb00;
+    color: black;
+}
+
 .button.hollow{
     border-color: white;
     color: white;
@@ -81,10 +86,6 @@ ul.row{
 
 ul.row ul{
     list-style: none;
-}
-
-i{
-    font-size: 3em;
 }
 
 #loading{
