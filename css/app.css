@@ -49,15 +49,16 @@ main{
     color: white;
 }
 
+.button.hollow:hover{
+    border-color: #ffeb00;
+    color: #ffeb00;
+}
+
 #chart .row{
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#chart .row{
-
 }
 
 .list-order{
@@ -91,4 +92,10 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+ul.row img{
+    margin: -15px 0;
+    border-radius: 5px;
+    border: 1px #000 solid;
 }
