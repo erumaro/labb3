@@ -1,18 +1,34 @@
 /* Style by Tobias Årud, some edits to basic foundation classes will be here aswell */
 body{
-    background: url('../img/wood-nature-sunny-forest.jpg') fixed;
+    background: url('../img/bg_stage.jpg') fixed;
     background-size: cover;
 }
 
-header.full-width{
+.full-width{
     background-color: red;
     color:white;
 }
 
-header > div.row{
+header > div.row, footer > div.row{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main p, footer p{
+    margin-bottom: 0;
+}
+
+footer a, footer .menu > li > a{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+footer a:hover, footer .menu > li > a:hover{
+    color: #ffeb00;
+    text-decoration: underline;
+    text-decoration-style: dashed;  
 }
 
 main{
@@ -68,4 +84,11 @@ ul.row ul{
 
 i{
     font-size: 3em;
+}
+
+#loading{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
